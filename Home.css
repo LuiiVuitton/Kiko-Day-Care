@@ -1,0 +1,7 @@
+#Home {
+  height: 100vh; /* Full viewport height */
+  background-size: cover; /* Ensure the background covers the entire element */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-attachment: fixed; /* Fix the background so it doesn't scroll with the content */
+}

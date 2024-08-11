@@ -1,0 +1,65 @@
+#Home {
+  background-color: #fff; /* Light background color for the section */
+  padding: 40px 0;
+}
+
+#Home h1 {
+  color: #2c3e50; /* Dark blue color for the heading */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+#Home p {
+  color: #34495e; /* Slightly lighter blue for the paragraphs */
+}
+
+#Home .btn-info {
+  background-color: #ffb7c5; /* Custom color for Contact button */
+  border-color: #34495e;
+}
+
+#Home .btn-info:hover {
+  background-color: #ffc0cb; /* Darker shade on hover */
+  border-color: #2980b9;
+}
+
+#Home .btn-outline-secondary {
+  border-color: #95a5a6; /* Custom color for Email button border */
+  color: #95a5a6;
+}
+
+#Home .btn-outline-secondary:hover {
+  background-color: #95a5a6; /* Fill the button on hover */
+  border-color: #95a5a6;
+  color: #fff; /* Change text color to white on hover */
+}
+
+.image-container {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  #Home h1 {
+    font-size: 1.75rem;
+  }
+
+  .image-container {
+    max-width: 250px;
+  }
+}

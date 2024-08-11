@@ -1,0 +1,20 @@
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #ffb7c5; /* Custom primary color */
+  border-color: #34495e;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9; /* Darker shade on hover */
+  border-color: #2980b9;
+}
+
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #1e6a9a; /* Even darker shade on focus/active */
+  border-color: #1e6a9a;
+}

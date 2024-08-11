@@ -1,0 +1,22 @@
+.navbar-nav .nav-link {
+  color: #808080; /* Change this to your desired color */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc0cb; /* Change this to your desired hover color */
+}
+
+/* NavBar.css */
+
+#NavBar {
+  z-index: 1030; /* Ensures the navbar is above other content */
+}
+
+.navbar {
+  position: -webkit-sticky; /* For Safari */
+  background-color: #fff0f5;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust if necessary to ensure it stays on top */
+}
