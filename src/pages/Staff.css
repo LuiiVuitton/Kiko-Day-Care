@@ -1,25 +1,97 @@
-.card-img-top {
-  height: 250px;
-  object-fit: cover;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.staff-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #333;
 }
 
-.card-body {
+.staff-title {
+  font-size: 3em;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #444;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(0deg, #000607, #000607);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.staff-card {
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.staff-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.staff-card-image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.staff-card:hover .staff-card-image img {
+  transform: scale(1.05);
+}
+
+.staff-card-body {
+  padding: 20px;
   text-align: center;
 }
 
-.card-title {
-  font-size: 1.25rem;
+.staff-card-title {
+  font-size: 1.5rem;
   font-weight: bold;
-}
-
-.card-subtitle {
-  font-size: 1rem;
+  color: #333;
   margin-bottom: 10px;
 }
 
-.card-text {
-  font-size: 0.9rem;
+.staff-card-role {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.staff-card-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .staff-title {
+    font-size: 2.5em;
+  }
+
+  .staff-card-body {
+    padding: 15px;
+  }
+
+  .staff-card-title {
+    font-size: 1.25rem;
+  }
+
+  .staff-card-role {
+    font-size: 1rem;
+  }
+
+  .staff-card-text {
+    font-size: 0.9rem;
+  }
 }

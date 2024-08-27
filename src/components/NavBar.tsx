@@ -35,6 +35,7 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                 <FaHome /> Home
               </Link>
             </li>
+
             <li className="nav-item">
               <Link className="nav-link" to="/about">
                 <LuPaperclip /> About
@@ -67,11 +68,15 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                     Facebook
                   </a>
                 </li>
+                <hr />
+
                 <li>
                   <a className="dropdown-item" href="#">
                     Calendar
                   </a>
                 </li>
+                <hr />
+
                 <li>
                   <a className="dropdown-item" href="#">
                     Forms
