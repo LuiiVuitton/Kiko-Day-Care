@@ -5,15 +5,13 @@ import image1 from "../assets/Kids5.jpg";
 import image2 from "../assets/Kids6.jpg";
 import image3 from "../assets/Kids7.jpg";
 
-import image4 from "../assets/Kids8.jpg";
-
 interface AboutProps {
   VisionImageSrc: string;
   MissionImageSrc: string;
   GoalImageSrc: string;
 }
 
-const About: React.FC<AboutProps> = ({ VisionImageSrc }) => {
+const About: React.FC<AboutProps> = ({}) => {
   return (
     <div className="about-container">
       {/* Hero Section */}

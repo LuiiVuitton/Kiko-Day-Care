@@ -10,7 +10,6 @@ import SlideImage1 from "./assets/Kids5.jpg";
 import SlideImage2 from "./assets/Kids7.jpg";
 import SlideImage3 from "./assets/Kids3.jpg";
 
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home2 from "./pages/Home2";
 import Services from "./pages/Services";
@@ -36,10 +35,6 @@ function App() {
               <Contact />
             </>
           }
-        />
-        <Route
-          path="/about"
-          element={<About AboutImageSrcPath={AboutImage} />}
         />
         <Route path="/staff" element={<Staff />} /> {/* Add Staff route */}
         {/* Add more routes as needed */}
