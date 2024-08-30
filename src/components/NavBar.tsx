@@ -70,7 +70,10 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a
+                    className="dropdown-item"
+                    href="https://www.facebook.com/p/KIKO-Early-Learning-Center-61560540610073/"
+                  >
                     <FaFacebook />
                     {"    "}Facebook
                   </a>
@@ -78,7 +81,10 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                 <hr />
 
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a
+                    className="dropdown-item"
+                    href="https://calendar.google.com/calendar/u/0?cid=OGZlNzIwOWM1NDRiOTkyMTUzZDQ3YzlmMGIyMzRiODU4ODVjMWJjMjZhYTZjNzY3NzcyMmQ1YjJjNTFlMWJhZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                  >
                     <SlCalender />
                     {"    "}Calendar
                   </a>
