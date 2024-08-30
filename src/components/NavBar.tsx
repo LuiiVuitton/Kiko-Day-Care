@@ -2,9 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import { FaHome } from "react-icons/fa";
-import { LuPaperclip } from "react-icons/lu";
 import { IoPeopleSharp } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
+import { IoMdPerson } from "react-icons/io";
+import { FaFacebook } from "react-icons/fa";
+import { SlCalender } from "react-icons/sl";
+import { FaDownload } from "react-icons/fa";
 
 interface NavProps {
   logoSrcPath: string;
@@ -31,24 +34,27 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
-                <FaHome /> Home
+              <Link className="nav-link " aria-current="page" to="/">
+                <FaHome /> {"    "}Home
               </Link>
             </li>
 
             <li className="nav-item">
               <Link className="nav-link" to="/about">
-                <LuPaperclip /> About
+                <IoMdPerson />
+                {"    "}About
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/staff">
-                <IoPeopleSharp /> Staff
+                <IoPeopleSharp />
+                {"    "} Staff
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/contact">
-                <IoMdMail /> Contact Us
+                <IoMdMail />
+                {"    "} Contact Us
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -65,21 +71,24 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Facebook
+                    <FaFacebook />
+                    {"    "}Facebook
                   </a>
                 </li>
                 <hr />
 
                 <li>
                   <a className="dropdown-item" href="#">
-                    Calendar
+                    <SlCalender />
+                    {"    "}Calendar
                   </a>
                 </li>
                 <hr />
 
                 <li>
                   <a className="dropdown-item" href="#">
-                    Forms
+                    <FaDownload />
+                    {"    "}Forms
                   </a>
                 </li>
               </ul>

@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensure Bootstrap JS is imported
 
-import Logo from "./assets/KikoLogoPink5.png";
+import Logo from "./assets/KikoLogoPink7.png";
 import SlideImage1 from "./assets/Kids5.jpg";
 import SlideImage2 from "./assets/Kids7.jpg";
 import SlideImage3 from "./assets/Kids3.jpg";
