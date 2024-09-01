@@ -34,28 +34,28 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link " aria-current="page" to="/">
+              <Link className="nav-link " aria-current="page" to="/Home">
                 <FaHome /> {"    "}Home
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <a className="nav-link" href="#Home2">
                 <IoMdPerson />
                 {"    "}About
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/staff">
+              <a className="nav-link" aria-current="page" href="#Services">
                 <IoPeopleSharp />
-                {"    "} Staff
-              </Link>
+                {"    "} Services
+              </a>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+            <li className="nav-item ">
+              <a className="nav-link" href="#Contact">
                 <IoMdMail />
                 {"    "} Contact Us
-              </Link>
+              </a>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -89,12 +89,46 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                     {"    "}Calendar
                   </a>
                 </li>
+              </ul>
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Forms
+              </a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://www.facebook.com/p/KIKO-Early-Learning-Center-61560540610073/"
+                  >
+                    <FaDownload />
+                    {"    "}Form 1
+                  </a>
+                </li>
+                <hr />
+
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://calendar.google.com/calendar/u/0?cid=OGZlNzIwOWM1NDRiOTkyMTUzZDQ3YzlmMGIyMzRiODU4ODVjMWJjMjZhYTZjNzY3NzcyMmQ1YjJjNTFlMWJhZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                  >
+                    <FaDownload />
+                    {"    "}form 2
+                  </a>
+                </li>
                 <hr />
 
                 <li>
                   <a className="dropdown-item" href="#">
                     <FaDownload />
-                    {"    "}Forms
+                    {"    "}Form 3
                   </a>
                 </li>
               </ul>

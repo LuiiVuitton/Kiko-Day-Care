@@ -3,7 +3,7 @@ import Logo from "../assets/FavIconLogo.png";
 
 function Home2() {
   return (
-    <div id="Home" style={{ paddingBottom: "10px" }}>
+    <div id="Home2" style={{ paddingBottom: "10px" }}>
       <div className="container mt-5">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-6 mt-4 mt-md-0 mb-4 mb-md-0">

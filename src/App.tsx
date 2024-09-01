@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 
+import About from "./pages/About";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensure Bootstrap JS is imported
 
@@ -18,11 +20,12 @@ function App() {
       <NavBar logoSrcPath={Logo} />
       <Routes>
         <Route
-          path="/"
+          path="/Home"
           element={
             <>
               <Home />
               <Home2 />
+              <About />
               <Services />
               <Contact />
             </>

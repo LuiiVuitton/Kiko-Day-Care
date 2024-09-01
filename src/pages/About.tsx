@@ -1,6 +1,5 @@
 import React from "react";
-import "./About.css";
-
+import "../components/About.css";
 import image1 from "../assets/Kids5.jpg";
 import image2 from "../assets/Kids6.jpg";
 import image3 from "../assets/Kids7.jpg";
@@ -15,7 +14,6 @@ const About: React.FC<AboutProps> = ({}) => {
   return (
     <div className="about-container">
       {/* Hero Section */}
-
       {/* Content Section */}
       <div className="about-content">
         {/* Vision Section */}
@@ -35,9 +33,6 @@ const About: React.FC<AboutProps> = ({}) => {
 
         {/* Mission Section */}
         <div className="about-section mission-section">
-          <div className="about-section-image">
-            <img src={image2} alt="Mission" className="about-card-image" />
-          </div>
           <div className="about-section-content">
             <h2 className="about-section-title">Our Mission</h2>
             <p className="about-section-description">
@@ -45,6 +40,9 @@ const About: React.FC<AboutProps> = ({}) => {
               tools that drive success and inspire creativity, fostering a
               culture of innovation.
             </p>
+          </div>
+          <div className="about-section-image">
+            <img src={image2} alt="Mission" className="about-card-image" />
           </div>
         </div>
 
