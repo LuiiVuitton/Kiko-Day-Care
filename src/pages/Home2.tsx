@@ -1,13 +1,9 @@
-import React from "react";
 import "../components/Home2.css";
+import Logo from "../assets/FavIconLogo.png";
 
-interface Home2Props {
-  imageSrcPath: string;
-}
-
-const Home2: React.FC<Home2Props> = ({ imageSrcPath }) => {
+function Home2() {
   return (
-    <div id="Home" style={{ paddingBottom: "40px" }}>
+    <div id="Home" style={{ paddingBottom: "10px" }}>
       <div className="container mt-5">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-6 mt-4 mt-md-0 mb-4 mb-md-0">
@@ -16,29 +12,36 @@ const Home2: React.FC<Home2Props> = ({ imageSrcPath }) => {
               Learning Center
             </h1>
             <p className="lead">
-              We are an Early Learning Center and our commitment to exceptional
-              care and nurturing drives us to provide the best support and
-              attention to each child in every interaction.
+              We believe in providing loving care and support to our students.
+              Our facility is{" "}
+              <span style={{ color: "#ffb7c5" }}>
+                dedicated to nurturing children
+              </span>{" "}
+              in all aspects of their lives. As one of our favorite characters,
+              Miss Frizzle, says: "Take chances! Make mistakes! Get messy!"
             </p>
-            <p>Simplifying Childcare!</p>
+            <p>Sign up Today!</p>
             <div className="mt-4">
               <a href="#Contact" className="btn btn-info me-3">
                 Contact
               </a>
-              <a href="#Projects" className="btn btn-outline-secondary">
+              <a
+                href="mailto:leannastapleton.nsa@gmail.com"
+                className="btn btn-outline-secondary"
+              >
                 Email
               </a>
             </div>
           </div>
           <div className="col-md-6 text-center">
             <div className="image-container">
-              <img src={imageSrcPath} className="img-fluid" alt="Profile" />
+              <img src={Logo} className="img-fluid" alt="Profile" />
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+}
 
 export default Home2;

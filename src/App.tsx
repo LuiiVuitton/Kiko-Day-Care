@@ -6,15 +6,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Ensure Bootstrap JS is imported
 
 import Logo from "./assets/KikoLogoPink7.png";
-import SlideImage1 from "./assets/Kids5.jpg";
-import SlideImage2 from "./assets/Kids7.jpg";
-import SlideImage3 from "./assets/Kids3.jpg";
 
 import Contact from "./pages/Contact";
 import Home2 from "./pages/Home2";
 import Services from "./pages/Services";
 import Staff from "./pages/Staff"; // Import Staff component
-import AboutImage from "./assets/KikoLogo.jpg";
 
 function App() {
   return (
@@ -25,12 +21,8 @@ function App() {
           path="/"
           element={
             <>
-              <Home
-                SlideImage1SrcPath={SlideImage1}
-                SlideImage2SrcPath={SlideImage2}
-                SlideImage3SrcPath={SlideImage3}
-              />
-              <Home2 imageSrcPath={AboutImage} />
+              <Home />
+              <Home2 />
               <Services />
               <Contact />
             </>

@@ -1,3 +1,5 @@
+import Add from "../assets/Content1.png";
+
 function Contact() {
   return (
     <div id="Contact">
@@ -69,6 +71,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      <img src={Add} className="img-fluid w-100" alt="..."></img>
     </div>
   );
 }

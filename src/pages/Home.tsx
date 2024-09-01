@@ -1,38 +1,59 @@
-import React, { useState, useEffect } from "react";
+import "../components/Home.css";
 
-interface HomeProps {
-  SlideImage1SrcPath: string;
-  SlideImage2SrcPath: string;
-  SlideImage3SrcPath: string;
+import imageOne from "../assets/Kids7.jpg";
+import imageTwo from "../assets/Kids6.jpg";
+import imageThree from "../assets/Kids5.jpg";
+
+function Home() {
+  return (
+    <div
+      id="carouselExampleAutoplaying"
+      className="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img src={imageOne} className="d-block w-100" alt="Slide 1" />
+          <div className="carousel-caption d-none d-md-block">
+            <h5>Caption for Slide 1</h5>
+            <p>Description for Slide 1.</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <img src={imageTwo} className="d-block w-100" alt="Slide 2" />
+          <div className="carousel-caption d-none d-md-block">
+            <h5>Caption for Slide 2</h5>
+            <p>Description for Slide 2.</p>
+          </div>
+        </div>
+        <div className="carousel-item">
+          <img src={imageThree} className="d-block w-100" alt="Slide 3" />
+          <div className="carousel-caption d-none d-md-block">
+            <h5>Caption for Slide 3</h5>
+            <p>Description for Slide 3.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        className="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Previous</span>
+      </button>
+      <button
+        className="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+        <span className="visually-hidden">Next</span>
+      </button>
+    </div>
+  );
 }
-
-const Home: React.FC<HomeProps> = ({
-  SlideImage1SrcPath,
-  SlideImage2SrcPath,
-  SlideImage3SrcPath,
-}) => {
-  const images = [SlideImage1SrcPath, SlideImage2SrcPath, SlideImage3SrcPath];
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
-
-    return () => clearInterval(interval); // Cleanup interval on component unmount
-  }, [images.length]);
-
-  const backgroundStyle = {
-    height: "400px",
-    backgroundImage: `url(${images[currentImageIndex]})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundAttachment: "fixed",
-    transition: "background-image 1s ease-in-out", // Smooth transition
-  };
-
-  return <div id="Home" style={backgroundStyle}></div>;
-};
 
 export default Home;
