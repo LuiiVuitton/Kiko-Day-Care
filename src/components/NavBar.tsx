@@ -57,6 +57,11 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                 {"    "} Contact Us
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#Downloads">
+                <FaDownload /> {"    "} Downloads
+              </a>
+            </li>
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -91,48 +96,7 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                 </li>
               </ul>
             </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Forms
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    className="dropdown-item"
-                    href="https://www.facebook.com/p/KIKO-Early-Learning-Center-61560540610073/"
-                  >
-                    <FaDownload />
-                    {"    "}Form 1
-                  </a>
-                </li>
-                <hr />
-
-                <li>
-                  <a
-                    className="dropdown-item"
-                    href="https://calendar.google.com/calendar/u/0?cid=OGZlNzIwOWM1NDRiOTkyMTUzZDQ3YzlmMGIyMzRiODU4ODVjMWJjMjZhYTZjNzY3NzcyMmQ1YjJjNTFlMWJhZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
-                  >
-                    <FaDownload />
-                    {"    "}form 2
-                  </a>
-                </li>
-                <hr />
-
-                <li>
-                  <a className="dropdown-item" href="#">
-                    <FaDownload />
-                    {"    "}Form 3
-                  </a>
-                </li>
-              </ul>
-            </li>
+            <li className="nav-item dropdown"></li>
           </ul>
         </div>
       </div>

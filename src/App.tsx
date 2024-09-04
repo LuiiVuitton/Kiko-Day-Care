@@ -14,6 +14,8 @@ import Home2 from "./pages/Home2";
 import Services from "./pages/Services";
 import Staff from "./pages/Staff"; // Import Staff component
 
+import Downloads from "./pages/Downloads";
+
 function App() {
   return (
     <Router>
@@ -25,6 +27,8 @@ function App() {
             <>
               <Home />
               <Home2 />
+              <Downloads />
+
               <About />
               <Services />
               <Contact />

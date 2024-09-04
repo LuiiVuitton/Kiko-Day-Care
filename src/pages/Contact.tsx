@@ -8,7 +8,7 @@ function Contact() {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2 className="section-heading text-uppercase mb-4">
-                Contact Me
+                Contact Us
               </h2>
             </div>
           </div>

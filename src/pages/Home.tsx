@@ -16,22 +16,22 @@ function Home() {
           <div className="carousel-item active">
             <img src={imageOne} className="d-block w-100" alt="Slide 1" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Caption for Slide 1</h5>
-              <p>Description for Slide 1.</p>
+              <h5>Child Care Service</h5>
+              <p>(301)-201-0224</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={imageTwo} className="d-block w-100" alt="Slide 2" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Caption for Slide 2</h5>
-              <p>Description for Slide 2.</p>
+              <h5>Now Open!</h5>
+              <p>Register Today!</p>
             </div>
           </div>
           <div className="carousel-item">
             <img src={imageThree} className="d-block w-100" alt="Slide 3" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Caption for Slide 3</h5>
-              <p>Description for Slide 3.</p>
+              <h5>K.I.K.O Early Learning Center</h5>
+              <p>Kids in Kids Out</p>
             </div>
           </div>
         </div>
