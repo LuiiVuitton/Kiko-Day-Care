@@ -6,7 +6,7 @@ import imageThree from "../assets/Kids5.jpg";
 
 function Home() {
   return (
-    <div id="Home">
+    <div id="/">
       <div
         id="carouselExampleAutoplaying"
         className="carousel slide"

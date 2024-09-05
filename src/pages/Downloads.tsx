@@ -1,8 +1,17 @@
+import "../components/Downloads.css";
+import Form1 from "../Forms/seizure-medication-administration-authorization-form.pdf";
+import Form2 from "../Forms/occ1216-medication-administration-authorization.pdf";
+
+import { LiaDownloadSolid } from "react-icons/lia";
+
 function Downloads() {
   return (
     <div id="Downloads">
       <div className="container my-5">
-        <h2 className="text-center mb-4">Downloads</h2>
+        <h2 className="text-center mb-4">
+          Downloads{"    "}
+          <LiaDownloadSolid />
+        </h2>
         <div className="accordion" id="downloadsAccordion">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">
@@ -25,20 +34,15 @@ function Downloads() {
             >
               <div className="accordion-body">
                 <p>Complete these forms to register for our services.</p>
-                <a
-                  href="/path/to/registration-form.pdf"
-                  className="btn btn-primary mb-2"
-                  download
-                >
-                  Download Registration Form (PDF)
+                <a href={Form1} className="btn btn-primary mb-2" download>
+                  Asthma Action Plan and Medication Administration Authorization
+                  Form (PDF) {"    "}
+                  <LiaDownloadSolid />
                 </a>
                 <br />
-                <a
-                  href="/path/to/registration-form.docx"
-                  className="btn btn-primary"
-                  download
-                >
-                  Download Registration Form (DOCX)
+                <a href={Form2} className="btn btn-primary" download>
+                  Medication and Administration Authorization (PDF) {"    "}
+                  <LiaDownloadSolid />
                 </a>
               </div>
             </div>

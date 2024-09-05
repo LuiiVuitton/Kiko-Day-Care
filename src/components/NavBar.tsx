@@ -34,7 +34,7 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link " aria-current="page" to="/Home">
+              <Link className="nav-link " aria-current="page" to="/">
                 <FaHome /> {"    "}Home
               </Link>
             </li>

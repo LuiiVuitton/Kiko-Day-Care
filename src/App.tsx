@@ -22,7 +22,7 @@ function App() {
       <NavBar logoSrcPath={Logo} />
       <Routes>
         <Route
-          path="/Home"
+          path="/"
           element={
             <>
               <Home />
