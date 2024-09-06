@@ -26,7 +26,7 @@ function Home2() {
                 Contact
               </a>
               <a
-                href="mailto:leannastapleton.nsa@gmail.com"
+                href="mailto:registration@kikoearlylearningcenter.com"
                 className="btn btn-outline-secondary"
               >
                 Email

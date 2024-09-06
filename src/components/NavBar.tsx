@@ -88,7 +88,7 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
                 <li>
                   <a
                     className="dropdown-item"
-                    href="https://calendar.google.com/calendar/u/0?cid=OGZlNzIwOWM1NDRiOTkyMTUzZDQ3YzlmMGIyMzRiODU4ODVjMWJjMjZhYTZjNzY3NzcyMmQ1YjJjNTFlMWJhZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+                    href="https://calendar.google.com/calendar/u/0?cid=Y185ZGZlMzBjOTlhMjZmNTczOWRjNzZhZDlkMjM4ODEzNWViMjQxNDY4MDI2OGYyN2VhZTJlMzhjNWI5NDI3OTg2QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
                   >
                     <SlCalender />
                     {"    "}Calendar

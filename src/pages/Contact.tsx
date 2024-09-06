@@ -18,7 +18,7 @@ function Contact() {
                 {/* Image removed */}
                 <form
                   className="custom-form"
-                  action="mailto:luis1134@icloud.com"
+                  action="mailto:registration@kikoearlylearningcenter.com"
                   method="post"
                   encType="text/plain"
                 >
