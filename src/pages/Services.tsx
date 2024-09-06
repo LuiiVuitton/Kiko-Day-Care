@@ -15,16 +15,6 @@ function Services() {
             {/* Added padding bottom */}
             <h2 className="mb-3">Our Services</h2>
             <p>
-              As early childhood educators, we are committed to providing
-              holistic care to every child in our program. Our facility
-              emphasizes a creative, age-appropriate educational curriculum that
-              incorporates Montessori principles. Our students are encouraged to
-              reach for the stars and beyond through our STEM and life skills
-              programs. We believe in supporting families in all aspects of
-              their lives, with our primary goal being to provide your child
-              with a strong foundation to build upon.
-            </p>
-            <p>
               Just as a thriving tree needs strong roots, with K.I.K.O. as your
               family’s roots, your child will blossom.
             </p>

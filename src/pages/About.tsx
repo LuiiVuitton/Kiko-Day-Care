@@ -1,63 +1,60 @@
 import "../components/About.css";
-import image1 from "../assets/Kids1.jpg";
 
 function About() {
   return (
-    <div id="About" className="about-section">
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-lg-6 mb-4 position-relative">
-            <div className="about-image-container">
-              <img
-                src={image1}
-                alt="About Us"
-                className="img-fluid rounded shadow-lg"
-              />
-            </div>
-          </div>
-          <div className="col-lg-6 d-flex flex-column justify-content-center align-items-start">
-            <h2 className="mb-4">Who We Are</h2>
-            <p className="mb-3">
-              We are dedicated to delivering exceptional services and innovative
-              solutions to our clients. Our mission drives us to exceed
-              expectations and continuously improve.
-            </p>
-            <p className="mb-3">
-              With a vision to make a lasting impact, we aim to lead in our
-              industry, setting new standards of excellence.
-            </p>
-            <a href="#mission" className="btn btn-primary mt-3">
-              Learn More
-            </a>
-          </div>
+    <>
+      {/* Parallax Section */}
+      <div className="parallax-section">
+        <div className="parallax-content">
+          <h1>Kids in Kids Out</h1>
+          <p>We are committed to delivering excellence in everything we do.</p>
         </div>
-        <div className="row mt-5">
-          <div className="col-12">
-            <div className="about-mission p-5 rounded shadow-lg">
-              <h3 className="mb-3">Our Mission</h3>
-              <p>
-                Our mission is to deliver outstanding services and solutions to
-                our clients. We strive to exceed expectations in everything we
-                do and are dedicated to continuous improvement.
-              </p>
-              <h3 className="mt-4 mb-3">Our Vision</h3>
-              <p>
-                We envision a world where our services make a significant
-                difference in the lives of those we serve. We aim to be leaders
-                in our industry, setting the standards for excellence.
-              </p>
-              <h3 className="mt-4 mb-3">About Our Company</h3>
-              <p>
-                Founded in [Year], our company has grown to become a trusted
-                name in the industry. Our team of experts is committed to
-                providing innovative solutions and unparalleled customer
-                service.
-              </p>
+      </div>
+      {/* About Section */}
+      <div id="About" className="about-section">
+        <h2 className="text-center mb-4">About Us</h2>
+
+        <div className="container my-5">
+          <div className="row mt-5">
+            <div className="col-12">
+              <div className="about-mission p-5 rounded shadow-lg">
+                <h3 className="mb-3">Our Mission</h3>
+                <p>
+                  Our mission as early childhood educators is to provide
+                  holistic care for every child in our program. We are dedicated
+                  to fostering a nurturing environment where each child can grow
+                  through a creative, age-appropriate educational curriculum
+                  that emphasizes Montessori principles. We aim to inspire our
+                  students to reach for the stars and beyond through our STEM
+                  and life skills programs, while also supporting families in
+                  every aspect of their journey.
+                </p>
+                <h3 className="mt-4 mb-3">Our Vision</h3>
+                <p>
+                  We envision a future where every child is empowered to explore
+                  their full potential, equipped with the skills and confidence
+                  to succeed in a rapidly changing world. Through innovative
+                  programs and a strong partnership with families, we aim to set
+                  the standard for excellence in early childhood education,
+                  fostering lifelong learners and responsible citizens.
+                </p>
+                <h3 className="mt-4 mb-3">About Our Company</h3>
+                <p>
+                  Our facility is built upon the foundation of delivering
+                  comprehensive and individualized care for every child. With a
+                  curriculum rooted in Montessori principles and an emphasis on
+                  STEM and life skills, we are committed to helping children
+                  develop the essential tools they need to thrive. By supporting
+                  families and encouraging creativity, we ensure that each child
+                  in our care receives the building blocks necessary for a
+                  strong future.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

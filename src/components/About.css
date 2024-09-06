@@ -1,3 +1,44 @@
+/* Parallax Section */
+.parallax-section {
+  height: 60vh;
+  background-image: url("../assets/Kids1.jpg"); /* Use your image */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* Add dark overlay for readability */
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
+
+.parallax-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.parallax-content p {
+  font-size: 1.2rem;
+}
+
+/* About Section */
 .about-section {
   background-color: #fafafa;
   padding: 50px 0;
