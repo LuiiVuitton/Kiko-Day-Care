@@ -8,6 +8,7 @@ import { IoMdPerson } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { SlCalender } from "react-icons/sl";
 import { FaDownload } from "react-icons/fa";
+import { GiGraduateCap } from "react-icons/gi";
 
 interface NavProps {
   logoSrcPath: string;
@@ -40,7 +41,7 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#Home2">
+              <a className="nav-link" href="#About">
                 <IoMdPerson />
                 {"    "}About
               </a>
@@ -60,6 +61,12 @@ const NavBar: React.FC<NavProps> = ({ logoSrcPath }) => {
             <li className="nav-item">
               <a className="nav-link" aria-current="page" href="#Downloads">
                 <FaDownload /> {"    "} Downloads
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" aria-current="page" href="#Staff">
+                <GiGraduateCap />
+                {"    "} Staff
               </a>
             </li>
             <li className="nav-item dropdown">

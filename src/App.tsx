@@ -27,7 +27,9 @@ function App() {
             <>
               <Home />
               <Home2 />
+
               <Downloads />
+              <Staff />
 
               <About />
               <Services />
