@@ -2,3 +2,24 @@
   height: 300px; /* Adjust this value to your preferred height */
   object-fit: cover; /* This ensures the image covers the specified height without stretching */
 }
+/* Home.css */
+
+/* Darken the carousel images */
+.carousel-item img {
+  filter: brightness(50%); /* Adjust the percentage to control the darkness */
+}
+
+/* Style for the captions */
+.carousel-caption h5 {
+  font-size: 2rem; /* Increase the font size for the heading */
+  font-weight: bold; /* Make the text bold if necessary */
+}
+
+.carousel-caption p {
+  font-size: 1.5rem; /* Increase the font size for the paragraph */
+}
+
+/* Optional: Add more padding to the captions for better visibility */
+.carousel-caption {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add shadow to the text for better readability */
+}

@@ -59,7 +59,12 @@ function Downloads() {
                   Welcome to Kids in Kids Out Early Learning Center! Download
                   our Welcome Package to Learn more about us.
                 </p>
-                <a href={Form7} className="btn btn-primary mb-2" download>
+                <a
+                  href={Form7}
+                  className="btn btn-primary mb-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   K.I.K.O Welcome Packet (PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
@@ -92,43 +97,78 @@ function Downloads() {
             >
               <div className="accordion-body">
                 <p>Complete these forms to register for our services.</p>
-                <a href={Form1} className="btn btn-primary mb-2" download>
+                <a
+                  href={Form1}
+                  className="btn btn-primary mb-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   occ1216a-Seizure Medication Administration Authorization Form
                   (PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
                 <br />
-                <a href={Form2} className="btn btn-primary" download>
+                <a
+                  href={Form2}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   occ1216-Medication Administration Authorization (PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
               </div>
 
               <div className="accordion-body">
-                <a href={Form3} className="btn btn-primary mb-2" download>
+                <a
+                  href={Form3}
+                  className="btn btn-primary mb-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   occ1215-Health-Inventory- (PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
                 <br />
-                <a href={Form4} className="btn btn-primary" download>
+                <a
+                  href={Form4}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   occ-1214-Emergency Form (PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
               </div>
 
               <div className="accordion-body">
-                <a href={Form5} className="btn btn-primary mb-2" download>
+                <a
+                  href={Form5}
+                  className="btn btn-primary mb-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   occ-1216b-Medication Incident Reporting (PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
                 <br />
-                <a href={Form6} className="btn btn-primary" download>
+                <a
+                  href={Form6}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Maryland Immunization Certification Form(PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>
               </div>
               <div className="accordion-body">
-                <a href={Form8} className="btn btn-primary" download>
+                <a
+                  href={Form8}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Blood Lead Testing Certificate(PDF) {"    "}
                   <LiaDownloadSolid />
                 </a>

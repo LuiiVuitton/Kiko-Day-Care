@@ -32,7 +32,7 @@ function Services() {
                 alt="Card 1"
               />
               <div className="card-body">
-                <h5 className="card-title">Childcare</h5>
+                <h5 className="card-title">Family Support</h5>
                 <p className="card-text">
                   This is a simple card. Replace this text with your content.
                 </p>
@@ -52,7 +52,7 @@ function Services() {
                 alt="Card 2"
               />
               <div className="card-body">
-                <h5 className="card-title">Art class</h5>
+                <h5 className="card-title">Nutrition and Health Program</h5>
                 <p className="card-text">
                   This is another simple card. Replace this text with your
                   content.
@@ -73,7 +73,73 @@ function Services() {
                 alt="Card 3"
               />
               <div className="card-body">
-                <h5 className="card-title">Lunch</h5>
+                <h5 className="card-title">
+                  Optional Organic/Vegetarian meal program
+                </h5>
+                <p className="card-text">
+                  This is yet another simple card. Replace this text with your
+                  content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Card 4 */}
+          <div className="col-md-4  pb-4">
+            <div className="card shadow card-hover">
+              <img
+                src={image3}
+                className="card-img-top img-fluid"
+                alt="Card 3"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Emotional Development</h5>
+                <p className="card-text">
+                  This is yet another simple card. Replace this text with your
+                  content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Card 5 */}
+          <div className="col-md-4  pb-4">
+            <div className="card shadow card-hover">
+              <img
+                src={image3}
+                className="card-img-top img-fluid"
+                alt="Card 3"
+              />
+              <div className="card-body">
+                <h5 className="card-title">
+                  S.T.E.M program /Life Skill Program
+                </h5>
+                <p className="card-text">
+                  This is yet another simple card. Replace this text with your
+                  content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Card 6 */}
+          <div className="col-md-4  pb-4">
+            <div className="card shadow card-hover">
+              <img
+                src={image3}
+                className="card-img-top img-fluid"
+                alt="Card 3"
+              />
+              <div className="card-body">
+                <h5 className="card-title">
+                  Optional early arrival Bible program (Christian)
+                </h5>
                 <p className="card-text">
                   This is yet another simple card. Replace this text with your
                   content.
