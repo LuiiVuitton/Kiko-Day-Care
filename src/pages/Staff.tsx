@@ -16,7 +16,7 @@ function Staff() {
                 alt="Profile 1"
               />
               <div className="card-body">
-                <h5 className="card-title">Ms. Lea</h5>
+                <h5 className="card-title">Mrs. Lea</h5>
                 <p className="card-text">
                   I have four years of experience in early childhood education.
                   Prior to that, I worked as a Loan Signing Agent in Virginia,
