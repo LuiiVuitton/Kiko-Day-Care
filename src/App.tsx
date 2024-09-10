@@ -16,6 +16,8 @@ import Staff from "./pages/Staff"; // Import Staff component
 
 import Downloads from "./pages/Downloads";
 
+import Calender from "./components/Calender";
+
 function App() {
   return (
     <Router>
@@ -27,6 +29,7 @@ function App() {
             <>
               <Home />
               <Home2 />
+              <Calender />
 
               <Downloads />
               <Staff />
