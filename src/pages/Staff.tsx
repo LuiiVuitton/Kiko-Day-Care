@@ -36,7 +36,7 @@ function Staff() {
                 alt="Profile 2"
               />
               <div className="card-body">
-                <h5 className="card-title">Yessica</h5>
+                <h5 className="card-title">Yessi</h5>
                 <p className="card-text">
                   As a first-time daycare owner, I am deeply passionate about
                   creating a nurturing and safe environment where children can
