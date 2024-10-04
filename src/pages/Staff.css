@@ -1,3 +1,4 @@
+/* Staff Section Styling */
 .staff-section {
   padding: 50px 0;
 }
@@ -5,19 +6,25 @@
 .section-title {
   margin-bottom: 40px;
   font-size: 2.5rem;
+  text-align: center;
 }
 
+/* Card Styling */
 .staff-card {
   margin-bottom: 30px;
   transition: transform 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .staff-card:hover {
   transform: scale(1.05);
 }
 
+/* Image and Text Adjustments */
 .staff-img {
-  height: 300px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -29,4 +36,33 @@
 .card-text {
   font-size: 1rem;
   color: #555;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .staff-img {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+  }
+
+  .staff-img {
+    height: auto;
+  }
 }
